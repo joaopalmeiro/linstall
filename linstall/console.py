@@ -17,7 +17,8 @@ def run(package, language):
 
     # https://docs.python.org/3.7/library/importlib.html#module-importlib.resources
     # https://stackoverflow.com/a/20885799
-    template = pkg_resources.read_text(templates, "python.md")
+    template_name = f"{language.lower()}.md"
+    template = pkg_resources.read_text(templates, template_name)
 
     commands = process_variables(template, {"package": package})
 
