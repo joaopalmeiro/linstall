@@ -7,6 +7,7 @@ A Python CLI to generate a list of installation commands for a package to add to
 - `poetry install`
 - `poetry run linstall linstall Python` / `poetry run linstall --version` / `poetry run linstall --help`
 - `poetry check`
+- `poetry version minor` or `poetry version patch` ([source](https://python-poetry.org/docs/master/cli/#version))
 
 ## Notes
 
@@ -43,4 +44,4 @@ A Python CLI to generate a list of installation commands for a package to add to
     - [Poetry](https://python-poetry.org/docs/master/cli/#add): `poetry add`
     - [PDM](https://python-poetry.org/docs/master/cli/#add) ([example](https://github.com/pdm-project/pdm#quickstart)): `pdm add`
     - [Pyflow](https://github.com/David-OConnor/pyflow#what-you-can-do): `pyflow install`
-- [shellingham](https://github.com/sarugaku/shellingham)
+- [shellingham](https://github.com/sarugaku/shellingham) package
