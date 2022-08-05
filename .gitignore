@@ -5,3 +5,5 @@ poetry.lock
 .venv/
 __pycache__/
 dist/
+
+formatter.md
