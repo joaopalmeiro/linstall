@@ -1,3 +1,15 @@
 {
-  "python.linting.flake8Path": "${workspaceFolder}/.venv/bin/flake8heavened"
+  "python.linting.flake8Path": "${workspaceFolder}/.venv/bin/flake8heavened",
+
+  // Explorer file nesting
+  // v1.64 (experimental): https://code.visualstudio.com/updates/v1_64#_explorer-file-nesting
+  // v1.67: https://code.visualstudio.com/updates/v1_67#_explorer-file-nesting
+  // https://dzhavat.github.io/2022/02/07/file-nesting-in-vs-code.html
+  // https://github.com/antfu/vscode-file-nesting-config
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "pyproject.toml": "poetry.lock",
+    "README.md": "LICENSE"
+  }
 }
