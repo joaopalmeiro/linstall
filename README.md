@@ -2,6 +2,19 @@
 
 A Python CLI to generate a list of installation commands for a package to add to README files.
 
+## Quickstart
+
+```bash
+Usage: linstall [OPTIONS] PACKAGE {JavaScript|Python}
+
+  Generate a list of installation commands for a package to add to README
+  files.
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+```
+
 ## Development
 
 - `poetry install`
@@ -49,3 +62,4 @@ A Python CLI to generate a list of installation commands for a package to add to
     - [Yarn](https://yarnpkg.com/getting-started/usage#adding-a-dependency): `yarn add`
     - [pnpm](https://pnpm.io/cli/add): `pnpm add`
 - [shellingham](https://github.com/sarugaku/shellingham) package
+- `pipx install linstall`
