@@ -26,6 +26,8 @@ linstall = "linstall.console:run"
 [tool.poetry.group.dev.dependencies]
 black = "22.6.0"
 isort = "5.10.1"
+flakeheaven = "3.0.0"
+flake8-use-fstring = "1.4"
 
 [tool.poetry-version-plugin]
 source = "init"
@@ -36,3 +38,19 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.isort]
 profile = "black"
+
+# https://github.com/flakeheaven/flakeheaven
+# https://flakeheaven.readthedocs.io/en/latest/formatters.html
+# https://flakeheaven.readthedocs.io/en/latest/config.html#example
+# https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html#line-length
+# https://github.com/flakeheaven/flakeheaven/blob/main/pyproject.toml#L59
+[tool.flakeheaven]
+format = "grouped"
+max_line_length = 88
+show_source = true
+
+# https://github.com/MichaelKim0407/flake8-use-fstring
+[tool.flakeheaven.plugins]
+pycodestyle = ["+*"]
+pyflakes = ["+*"]
+flake8-use-fstring = ["+*"]
