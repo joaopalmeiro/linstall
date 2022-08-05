@@ -11,7 +11,7 @@ from . import templates
 @click.command()
 @click.version_option()
 @click.argument("package")
-@click.argument("language", type=click.Choice(["Python"], case_sensitive=False))
+@click.argument("language", type=click.Choice(["JavaScript", "Python"], case_sensitive=False))
 def run(package, language):
     """Generate a list of installation commands for a package to add to README files."""
 

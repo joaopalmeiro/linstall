@@ -44,4 +44,8 @@ A Python CLI to generate a list of installation commands for a package to add to
     - [Poetry](https://python-poetry.org/docs/master/cli/#add): `poetry add`
     - [PDM](https://python-poetry.org/docs/master/cli/#add) ([example](https://github.com/pdm-project/pdm#quickstart)): `pdm add`
     - [Pyflow](https://github.com/David-OConnor/pyflow#what-you-can-do): `pyflow install`
+  - JavaScript:
+    - [npm](https://docs.npmjs.com/cli/v8/commands/npm-install): `npm install`
+    - [Yarn](https://yarnpkg.com/getting-started/usage#adding-a-dependency): `yarn add`
+    - [pnpm](https://pnpm.io/cli/add): `pnpm add`
 - [shellingham](https://github.com/sarugaku/shellingham) package
