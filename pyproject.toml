@@ -1,12 +1,24 @@
 [tool.poetry]
 name = "linstall"
-version = "0.1.0"
+version = "0.0.1"
 description = "A Python CLI to generate a list of installation commands for a package to add to README files."
+license = "MIT"
 authors = ["João Palmeiro <joaopalmeiro@proton.me>"]
 readme = "README.md"
+homepage = "https://github.com/joaopalmeiro/linstall"
+repository = "https://github.com/joaopalmeiro/linstall"
 
 [tool.poetry.dependencies]
 python = "^3.7"
+
+[tool.poetry.scripts]
+linstall = "linstall.console:run"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/joaopalmeiro/linstall/issues"
+
+[tool.poetry-version-plugin]
+source = "init"
 
 [build-system]
 requires = ["poetry-core"]

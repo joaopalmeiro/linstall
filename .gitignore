@@ -1,4 +1,7 @@
 # https://python-poetry.org/docs/master/basic-usage/#commit-your-poetrylock-file-to-version-control
 # https://python-poetry.org/docs/master/libraries/#lock-file
 poetry.lock
-.venv
+
+.venv/
+__pycache__/
+dist/
