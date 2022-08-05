@@ -36,3 +36,10 @@ A Python CLI to generate a list of installation commands for a package to add to
   - [IDE Integration fails on VSCode](https://github.com/flakeheaven/flakeheaven/issues/32) (open) issue and [BUG: flake8heavened just runs flake8 in VSCode](https://github.com/flakeheaven/flakeheaven/issues/127) issue
   - `poetry run flakeheaven code FS001` ([source](https://flakeheaven.readthedocs.io/en/latest/commands/code.html))
   - `poetry run flakeheaven codes flake8-use-fstring` ([source](https://flakeheaven.readthedocs.io/en/latest/commands/codes.html))
+- Commands:
+  - Python:
+    - [pip](https://pip.pypa.io/en/stable/cli/pip_install/): `pip install`
+    - [Pipenv](https://pipenv.pypa.io/en/latest/install/#installing-packages-for-your-project): `pipenv install`
+    - [Poetry](https://python-poetry.org/docs/master/cli/#add): `poetry add`
+    - [PDM](https://python-poetry.org/docs/master/cli/#add) ([example](https://github.com/pdm-project/pdm#quickstart)): `pdm add`
+    - [Pyflow](https://github.com/David-OConnor/pyflow#what-you-can-do): `pyflow install`
