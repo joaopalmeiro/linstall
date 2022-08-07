@@ -4,6 +4,22 @@ A Python CLI to generate a list of installation commands for a package to add to
 
 ## Quickstart
 
+### Installation
+
+Via [pip](https://github.com/pypa/pip):
+
+```bash
+pip install linstall
+```
+
+Via [pipx](https://github.com/pypa/pipx):
+
+```bash
+pipx install linstall
+```
+
+### Usage
+
 ```bash
 Usage: linstall [OPTIONS] PACKAGE {JavaScript|Python}
 
