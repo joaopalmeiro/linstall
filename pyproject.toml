@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "linstall"
-version = "0.2.1"
+version = "0.2.2"
 description = "A Python CLI to generate a list of installation commands for a package to add to README files."
 license = "MIT"
 authors = ["João Palmeiro <joaopalmeiro@proton.me>"]
@@ -21,6 +21,7 @@ linstall = "linstall.console:run"
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/joaopalmeiro/linstall/issues"
+"Twitter" = "https://twitter.com/joaompalmeiro"
 
 # https://python-poetry.org/docs/master/managing-dependencies/#dependency-groups
 [tool.poetry.group.dev.dependencies]
@@ -28,9 +29,6 @@ black = "22.6.0"
 isort = "5.10.1"
 flakeheaven = "3.0.0"
 flake8-use-fstring = "1.4"
-
-[tool.poetry-version-plugin]
-source = "init"
 
 [build-system]
 requires = ["poetry-core"]
